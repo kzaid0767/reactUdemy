@@ -1,0 +1,16 @@
+.Slot {
+    border: 2px solid pink;
+    background: lightcyan;
+}
+
+.win {
+    background: green;
+    color: white;
+    font-size: 40px;
+}
+
+.lose {
+    background: red;
+    color:white;
+    font-size: 40px;
+}
