@@ -1,14 +1,11 @@
-import AnnoyingForm from './AnnoyingForm';
 import './App.css';
-import Copy from './CopyDemo';
-import WiseSquare from './WiseSquare';
+import Button from './Button';
+import NumberList from './NumberList';
 
 function App() {
   return (
     <div className="App">
-      <WiseSquare />
-      <AnnoyingForm/>
-      <Copy/>
+      <NumberList/>
     </div>
   );
 }
