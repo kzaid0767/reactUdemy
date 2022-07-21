@@ -1,3 +1,38 @@
 .Board {
   margin: 0 auto;
+  width: 700px;
+  height: 700px;
+  display: flex;
+  display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.Board div {
+  width: 150px;
+  height: 150px;
+  border: 2px solid rgb(54, 243, 6);
+}
+
+h1, img {
+  animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+h1 {
+  color: rgb(54, 243, 6);
+  font-size: 70px;
+}
+
+button {
+  width: 200px;
+  color: rgb(54, 243, 6);
+  font-size: 30px;
+  background-color: black;
 }
