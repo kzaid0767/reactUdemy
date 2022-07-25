@@ -9,10 +9,10 @@
 .RuleRow-disabled {
   background: linear-gradient(
     to right,
-    rgba(209, 196, 233, 1) 0%,
-    rgba(209, 196, 233, 1) 0%,
-    rgba(209, 196, 233, 1) 30%,
-    rgba(227, 242, 253, 1) 40%
+    rgb(236, 233, 7) 0%,
+    rgba(236, 233, 7) 0%,
+    rgb(108, 223, 55) 30%,
+    rgb(73, 233, 10) 40%
   );
   background-size: 300% 300%;
   animation: Slide 1s ease 1;
