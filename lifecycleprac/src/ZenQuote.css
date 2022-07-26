@@ -1,0 +1,29 @@
+.loader {
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border: 16px solid rebeccapurple;
+    width: 12px;
+    height: 120px;
+    border-top-color: cyan;
+    border-bottom-color: skyblue;
+    border-radius: 50%;
+    animation: coloredspin 4s linear infinite;
+}
+
+@keyframes coloredspin {
+    0% {
+        transform: rotate(0deg) scale(1);
+        border-top-color: #1abc9c;
+        border-bottom-color: #1abc9c;
+    }
+    25% {
+        border-top-color: #2ed1b0;
+        border-bottom-color: #2ed1b0; 
+    }
+    50% {
+        transform: rotate(360deg) scale(1.05);
+        border-top-color: cyan;
+        border-bottom-color: skyblue;
+    }
+}
